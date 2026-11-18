@@ -1,0 +1,2 @@
+# El proyecto usa exclusivamente módulos de la biblioteca estándar de Python 3.10+.
+# No se requieren dependencias de terceros.
