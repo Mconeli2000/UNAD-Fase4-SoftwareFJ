@@ -1,0 +1,7 @@
+2026-11-16 17:06:49,778 | INFO | Sistema de eventos inicializado
+2026-11-16 17:06:49,778 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 17:06:49,778 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 17:06:49,778 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 17:06:49,778 | INFO | Cliente registrado: C10
+2026-11-16 17:06:49,779 | INFO | Reserva confirmada: R10 | cliente=C10 | servicio=S01 | costo=170000.00
+2026-11-16 17:06:49,779 | INFO | Fin de la sesión interactiva

@@ -1,0 +1,23 @@
+N.º | Caso | Estado | Observación
+-----------------------------------------------------------------------------------------------
+01 | Cliente válido                      | APROBADA | Cliente C01: Ana Pérez
+02 | Correo inválido                     | APROBADA | DatoInvalidoError: El correo electrónico tiene un formato in
+03 | Cliente repetido                    | APROBADA | RegistroDuplicadoError: Ya existe un cliente con ese identif
+04 | Teléfono inválido                   | APROBADA | DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígit
+05 | Segundo cliente válido              | APROBADA | Cliente C04: Juan Ortiz
+06 | Sala válida                         | APROBADA | Sala Sala creativa (capacidad 12; tarifa $80000/h)
+07 | Equipo válido                       | APROBADA | Equipo Proyector 4K (2 unidades; tarifa $40000/h)
+08 | Asesoría válida                     | APROBADA | Asesoría Consultoría en TI (Infraestructura; tarifa $120000/
+09 | Servicio con tarifa negativa        | APROBADA | DatoInvalidoError: tarifa/hora debe ser finito y mayor o igu
+10 | Servicio sin capacidad              | APROBADA | DatoInvalidoError: unidades debe ser mayor o igual que 1.
+11 | Reserva de sala exitosa             | APROBADA | Reserva R01: cliente C01, servicio S01, 2026-11-20 09:00, 2 
+12 | Sala ocupada                        | APROBADA | ServicioNoDisponibleError: No hay capacidad para el horario 
+13 | Reserva de equipo exitosa           | APROBADA | Reserva R03: cliente C01, servicio E01, 2026-11-20 10:00, 3 
+14 | Segundo equipo simultáneo           | APROBADA | Reserva R04: cliente C04, servicio E01, 2026-11-20 11:00, 2 
+15 | Inventario de equipo agotado        | APROBADA | ServicioNoDisponibleError: No hay capacidad para el horario 
+16 | Duración incorrecta                 | APROBADA | DatoInvalidoError: duración debe ser mayor o igual que 1.
+17 | Asesoría exitosa                    | APROBADA | Reserva R07: cliente C04, servicio A01, 2026-11-20 14:00, 2 
+18 | Fecha inválida                      | APROBADA | ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+19 | Cancelación exitosa                 | APROBADA | Reserva R01: cliente C01, servicio S01, 2026-11-20 09:00, 2 
+20 | Reutilizar sala liberada            | APROBADA | Reserva R09: cliente C04, servicio S01, 2026-11-20 10:00, 1 
+Simulaciones superadas: 20/20

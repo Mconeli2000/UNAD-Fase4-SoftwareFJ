@@ -1,0 +1,322 @@
+2026-11-16 17:00:01,070 | INFO | Sistema de eventos inicializado
+2026-11-16 17:00:01,070 | INFO | Cliente registrado: C01
+2026-11-16 17:00:01,070 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 17:00:01,070 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 17:00:01,070 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 17:00:01,070 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 17:00:01,070 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 17:00:01,070 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 17:00:01,070 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 17:00:01,070 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 17:00:01,070 | INFO | Cliente registrado: C04
+2026-11-16 17:00:01,070 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 17:00:01,071 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 17:00:01,071 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 17:00:01,071 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 17:00:01,071 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 17:00:01,071 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 17:00:01,071 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 17:00:01,071 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 17:00:01,071 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 17:00:01,071 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 17:00:01,071 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 17:00:01,071 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 17:00:01,071 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 17:00:01,071 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 17:00:01,071 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 17:00:01,072 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 17:00:01,072 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 17:00:01,072 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 17:00:01,072 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 17:00:01,072 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 17:00:01,072 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Reserva cancelada: R01
+2026-11-16 17:00:01,072 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 17:00:01,072 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 17:00:01,072 | INFO | Simulación 20 finalizada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Sistema de eventos inicializado
+2026-11-16 17:00:32,300 | INFO | Cliente registrado: C01
+2026-11-16 17:00:32,300 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 17:00:32,300 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 17:00:32,300 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 17:00:32,300 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 17:00:32,300 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 17:00:32,300 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 17:00:32,300 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Cliente registrado: C04
+2026-11-16 17:00:32,300 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 17:00:32,300 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 17:00:32,300 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 17:00:32,300 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 17:00:32,301 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 17:00:32,301 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 17:00:32,301 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 17:00:32,301 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 17:00:32,301 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 17:00:32,301 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 17:00:32,301 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 17:00:32,301 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 17:00:32,302 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 17:00:32,302 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 17:00:32,302 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 17:00:32,302 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 17:00:32,302 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 17:00:32,302 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 17:00:32,302 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 17:00:32,302 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 17:00:32,302 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 17:00:32,302 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 17:00:32,302 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 17:00:32,302 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Reserva cancelada: R01
+2026-11-16 17:00:32,302 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 17:00:32,302 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 17:00:32,302 | INFO | Simulación 20 finalizada: APROBADA
+2026-11-16 18:25:24,924 | INFO | Sistema de eventos inicializado
+2026-11-16 18:25:24,924 | INFO | Cliente registrado: C01
+2026-11-16 18:25:24,924 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 18:25:24,925 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 18:25:24,925 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 18:25:24,925 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 18:25:24,925 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 18:25:24,925 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 18:25:24,925 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Cliente registrado: C04
+2026-11-16 18:25:24,925 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:25:24,925 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:25:24,925 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:25:24,925 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 18:25:24,925 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 18:25:24,925 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 18:25:24,925 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 18:25:24,925 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 18:25:24,925 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 18:25:24,926 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 18:25:24,926 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:25:24,926 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 18:25:24,926 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 18:25:24,926 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 18:25:24,926 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 18:25:24,926 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:25:24,926 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 18:25:24,926 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 18:25:24,926 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 18:25:24,927 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 18:25:24,927 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 18:25:24,927 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Reserva cancelada: R01
+2026-11-16 18:25:24,927 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 18:25:24,927 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 18:25:24,927 | INFO | Simulación 20 finalizada: APROBADA
+2026-11-16 18:25:26,650 | INFO | Sistema de eventos inicializado
+2026-11-16 18:25:26,651 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:25:26,651 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:25:26,651 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:25:26,651 | INFO | Fin de la sesión interactiva
+2026-11-16 18:26:23,292 | INFO | Sistema de eventos inicializado
+2026-11-16 18:26:23,292 | INFO | Cliente registrado: C01
+2026-11-16 18:26:23,292 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 18:26:23,292 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 18:26:23,292 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 18:26:23,292 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 18:26:23,292 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 18:26:23,292 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 18:26:23,293 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 18:26:23,293 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Cliente registrado: C04
+2026-11-16 18:26:23,293 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:26:23,293 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:26:23,293 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:26:23,293 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 18:26:23,293 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 18:26:23,293 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 18:26:23,293 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 18:26:23,293 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 18:26:23,293 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 18:26:23,294 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 18:26:23,294 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:26:23,294 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 18:26:23,294 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 18:26:23,294 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 18:26:23,294 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 18:26:23,294 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:26:23,294 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 18:26:23,294 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 18:26:23,295 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 18:26:23,295 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 18:26:23,295 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 18:26:23,295 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Reserva cancelada: R01
+2026-11-16 18:26:23,295 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 18:26:23,295 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 18:26:23,295 | INFO | Simulación 20 finalizada: APROBADA
+2026-11-16 18:27:57,009 | INFO | Sistema de eventos inicializado
+2026-11-16 18:27:57,010 | INFO | Cliente registrado: C01
+2026-11-16 18:27:57,010 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 18:27:57,010 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 18:27:57,010 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 18:27:57,010 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 18:27:57,010 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 18:27:57,010 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 18:27:57,010 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 18:27:57,010 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 18:27:57,010 | INFO | Cliente registrado: C04
+2026-11-16 18:27:57,010 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 18:27:57,010 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 18:27:57,010 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:27:57,010 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 18:27:57,010 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 18:27:57,011 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:27:57,011 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 18:27:57,011 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 18:27:57,011 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:27:57,011 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 18:27:57,011 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 18:27:57,011 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 18:27:57,011 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 18:27:57,011 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 18:27:57,011 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 18:27:57,011 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 18:27:57,012 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 18:27:57,012 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:27:57,012 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 18:27:57,012 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 18:27:57,012 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 18:27:57,012 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:27:57,012 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 18:27:57,012 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 18:27:57,012 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 18:27:57,012 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 18:27:57,012 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 18:27:57,012 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 18:27:57,012 | INFO | Reserva cancelada: R01
+2026-11-16 18:27:57,013 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 18:27:57,013 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 18:27:57,013 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 18:27:57,013 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 18:27:57,013 | INFO | Simulación 20 finalizada: APROBADA
+2026-11-16 18:27:58,639 | INFO | Sistema de eventos inicializado
+2026-11-16 18:27:58,639 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:27:58,639 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:27:58,639 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:27:58,639 | INFO | Fin de la sesión interactiva
+2026-11-16 18:39:06,295 | INFO | Sistema de eventos inicializado
+2026-11-16 18:39:06,295 | INFO | Cliente registrado: C01
+2026-11-16 18:39:06,295 | INFO | Simulación 01 [Cliente válido] completada: APROBADA
+2026-11-16 18:39:06,295 | INFO | Simulación 01 finalizada: APROBADA
+2026-11-16 18:39:06,296 | ERROR | Simulación 02 [Correo inválido] error controlado: DatoInvalidoError: El correo electrónico tiene un formato inválido.
+2026-11-16 18:39:06,296 | INFO | Simulación 02 finalizada: APROBADA
+2026-11-16 18:39:06,296 | ERROR | Simulación 03 [Cliente repetido] error controlado: RegistroDuplicadoError: Ya existe un cliente con ese identificador.
+2026-11-16 18:39:06,296 | INFO | Simulación 03 finalizada: APROBADA
+2026-11-16 18:39:06,296 | ERROR | Simulación 04 [Teléfono inválido] error controlado: DatoInvalidoError: El teléfono debe tener entre 7 y 15 dígitos; '+' es opcional.
+2026-11-16 18:39:06,296 | INFO | Simulación 04 finalizada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Cliente registrado: C04
+2026-11-16 18:39:06,296 | INFO | Simulación 05 [Segundo cliente válido] completada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Simulación 05 finalizada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Servicio registrado: S01 (Sala)
+2026-11-16 18:39:06,296 | INFO | Simulación 06 [Sala válida] completada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Simulación 06 finalizada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Servicio registrado: E01 (Equipo)
+2026-11-16 18:39:06,296 | INFO | Simulación 07 [Equipo válido] completada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Simulación 07 finalizada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Servicio registrado: A01 (Asesoria)
+2026-11-16 18:39:06,296 | INFO | Simulación 08 [Asesoría válida] completada: APROBADA
+2026-11-16 18:39:06,296 | INFO | Simulación 08 finalizada: APROBADA
+2026-11-16 18:39:06,296 | ERROR | Simulación 09 [Servicio con tarifa negativa] error controlado: DatoInvalidoError: tarifa/hora debe ser finito y mayor o igual que 0.01.
+2026-11-16 18:39:06,296 | INFO | Simulación 09 finalizada: APROBADA
+2026-11-16 18:39:06,297 | ERROR | Simulación 10 [Servicio sin capacidad] error controlado: DatoInvalidoError: unidades debe ser mayor o igual que 1.
+2026-11-16 18:39:06,297 | INFO | Simulación 10 finalizada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Reserva confirmada: R01 | cliente=C01 | servicio=S01 | costo=160000.00
+2026-11-16 18:39:06,297 | INFO | Simulación 11 [Reserva de sala exitosa] completada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Simulación 11 finalizada: APROBADA
+2026-11-16 18:39:06,297 | ERROR | Simulación 12 [Sala ocupada] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:39:06,297 | INFO | Simulación 12 finalizada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Reserva confirmada: R03 | cliente=C01 | servicio=E01 | costo=128520.00
+2026-11-16 18:39:06,297 | INFO | Simulación 13 [Reserva de equipo exitosa] completada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Simulación 13 finalizada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Reserva confirmada: R04 | cliente=C04 | servicio=E01 | costo=80000.00
+2026-11-16 18:39:06,297 | INFO | Simulación 14 [Segundo equipo simultáneo] completada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Simulación 14 finalizada: APROBADA
+2026-11-16 18:39:06,297 | ERROR | Simulación 15 [Inventario de equipo agotado] error controlado: ServicioNoDisponibleError: No hay capacidad para el horario solicitado.
+2026-11-16 18:39:06,297 | INFO | Simulación 15 finalizada: APROBADA
+2026-11-16 18:39:06,297 | ERROR | Simulación 16 [Duración incorrecta] error controlado: DatoInvalidoError: duración debe ser mayor o igual que 1.
+2026-11-16 18:39:06,297 | INFO | Simulación 16 finalizada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Reserva confirmada: R07 | cliente=C04 | servicio=A01 | costo=265000.00
+2026-11-16 18:39:06,297 | INFO | Simulación 17 [Asesoría exitosa] completada: APROBADA
+2026-11-16 18:39:06,297 | INFO | Simulación 17 finalizada: APROBADA
+2026-11-16 18:39:06,298 | ERROR | Simulación 18 [Fecha inválida] error controlado: ReservaInvalidaError: Fecha inválida; use AAAA-MM-DD HH:MM.
+2026-11-16 18:39:06,298 | INFO | Simulación 18 finalizada: APROBADA
+2026-11-16 18:39:06,298 | INFO | Reserva cancelada: R01
+2026-11-16 18:39:06,298 | INFO | Simulación 19 [Cancelación exitosa] completada: APROBADA
+2026-11-16 18:39:06,298 | INFO | Simulación 19 finalizada: APROBADA
+2026-11-16 18:39:06,298 | INFO | Reserva confirmada: R09 | cliente=C04 | servicio=S01 | costo=80000.00
+2026-11-16 18:39:06,298 | INFO | Simulación 20 [Reutilizar sala liberada] completada: APROBADA
+2026-11-16 18:39:06,298 | INFO | Simulación 20 finalizada: APROBADA

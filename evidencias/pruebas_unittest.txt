@@ -1,0 +1,45 @@
+test_veinte_simulaciones_completadas (test_sistema.TestSimulacionesYLog.test_veinte_simulaciones_completadas) ... ok
+test_cancelacion_libera_cupo (test_sistema.TestSistemaGestion.test_cancelacion_libera_cupo) ... ok
+test_capacidad_cero (test_sistema.TestSistemaGestion.test_capacidad_cero) ... ok
+test_cliente_inexistente (test_sistema.TestSistemaGestion.test_cliente_inexistente) ... ok
+test_conflicto_sala (test_sistema.TestSistemaGestion.test_conflicto_sala) ... ok
+test_correo_invalido (test_sistema.TestSistemaGestion.test_correo_invalido) ... ok
+test_correo_normalizado (test_sistema.TestSistemaGestion.test_correo_normalizado) ... ok
+test_costo_sala (test_sistema.TestSistemaGestion.test_costo_sala) ... ok
+test_costo_sala_impuesto_descuento (test_sistema.TestSistemaGestion.test_costo_sala_impuesto_descuento) ... ok
+test_doble_cancelacion_invalida (test_sistema.TestSistemaGestion.test_doble_cancelacion_invalida) ... ok
+test_doble_confirmacion_invalida (test_sistema.TestSistemaGestion.test_doble_confirmacion_invalida) ... ok
+test_duracion_fraccionaria (test_sistema.TestSistemaGestion.test_duracion_fraccionaria) ... ok
+test_duracion_negativa (test_sistema.TestSistemaGestion.test_duracion_negativa) ... ok
+test_equipo_solapamientos_no_simultaneos (test_sistema.TestSistemaGestion.test_equipo_solapamientos_no_simultaneos)
+Dos alquileres separados no deben bloquear una franja amplia con dos equipos. ... ok
+test_exceso_horas_asesoria (test_sistema.TestSistemaGestion.test_exceso_horas_asesoria) ... ok
+test_exceso_horas_equipo (test_sistema.TestSistemaGestion.test_exceso_horas_equipo) ... ok
+test_exceso_horas_sala (test_sistema.TestSistemaGestion.test_exceso_horas_sala) ... ok
+test_fecha_invalida_con_causa (test_sistema.TestSistemaGestion.test_fecha_invalida_con_causa) ... ok
+test_fecha_zona_horaria_no_permitida (test_sistema.TestSistemaGestion.test_fecha_zona_horaria_no_permitida) ... ok
+test_id_cliente_duplicado (test_sistema.TestSistemaGestion.test_id_cliente_duplicado) ... ok
+test_inventario_dos_unidades (test_sistema.TestSistemaGestion.test_inventario_dos_unidades) ... ok
+test_listas_solo_lectura (test_sistema.TestSistemaGestion.test_listas_solo_lectura) ... ok
+test_no_crea_reserva_si_falla_costeo (test_sistema.TestSistemaGestion.test_no_crea_reserva_si_falla_costeo) ... ok
+test_no_expone_telefono_en_repr (test_sistema.TestSistemaGestion.test_no_expone_telefono_en_repr) ... ok
+test_nombre_faltante (test_sistema.TestSistemaGestion.test_nombre_faltante) ... ok
+test_polimorfismo_asesoria (test_sistema.TestSistemaGestion.test_polimorfismo_asesoria) ... ok
+test_porcentaje_mayor_uno (test_sistema.TestSistemaGestion.test_porcentaje_mayor_uno) ... ok
+test_registro_cliente_exitoso (test_sistema.TestSistemaGestion.test_registro_cliente_exitoso) ... ok
+test_registro_servicio_duplicado (test_sistema.TestSistemaGestion.test_registro_servicio_duplicado) ... ok
+test_reserva_correcta (test_sistema.TestSistemaGestion.test_reserva_correcta) ... ok
+test_reserva_repetida (test_sistema.TestSistemaGestion.test_reserva_repetida) ... ok
+test_reservas_consecutivas (test_sistema.TestSistemaGestion.test_reservas_consecutivas) ... ok
+test_servicio_inexistente (test_sistema.TestSistemaGestion.test_servicio_inexistente) ... ok
+test_servicio_no_disponible (test_sistema.TestSistemaGestion.test_servicio_no_disponible) ... ok
+test_tarifa_infinita (test_sistema.TestSistemaGestion.test_tarifa_infinita) ... ok
+test_tarifa_negativa (test_sistema.TestSistemaGestion.test_tarifa_negativa) ... ok
+test_tarifa_no_numerica_encadenada (test_sistema.TestSistemaGestion.test_tarifa_no_numerica_encadenada) ... ok
+test_telefono_invalido (test_sistema.TestSistemaGestion.test_telefono_invalido) ... ok
+test_unidades_cero (test_sistema.TestSistemaGestion.test_unidades_cero) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.008s
+
+OK

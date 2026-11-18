@@ -1,0 +1,10 @@
+
+1. Registrar cliente
+2. Listar clientes
+3. Ver servicios
+4. Crear reserva
+5. Ver reservas
+6. Cancelar reserva
+0. Salir
+
+Seleccione una opción: Cierre correcto de la aplicación.
